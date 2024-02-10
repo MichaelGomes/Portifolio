@@ -18,6 +18,7 @@ body, html{
 }
 header{
     background-color: #041930;
+    height: 50px;
 
 
 }
@@ -36,7 +37,7 @@ header > h1{
     text-align: left;
     display: inline-block;
     width: 50vw;
-    font-size: 1.5em;
+    font-size: 1em;
     position: absolute;
 
 }
@@ -54,6 +55,9 @@ span#burguer{
 span#burguer:hover{
     background-color: #8F3985;
     color: white;
+
+
+
 }
 menu{
     display: none;
@@ -69,15 +73,19 @@ menu > ul > li > a{
     color: white;
     text-align: center;
     border-top: 2px solid rgb(130, 3, 134);
+    
 
 }
 menu > ul > li > a:hover{
-    background-color: lightgray;
+    background-image:linear-gradient(to right,  #ff9900,#8F3985);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform 0.2s,  border 1s;
 }
 section#background{
     height: 300px;
 
-    background: url(../imagens/background1.jpg);
+    background: url(../imagens/background1.jpg) left center;
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 40px;
@@ -93,7 +101,7 @@ section#card{
 div#imagem{
     margin: auto;
     text-align: center;
-    background-color: #8f3985a1;
+    background-image: linear-gradient(to right,  #a30ce97c,#8F3985);
     width: 150px;
     border-radius: 200px;
 
@@ -121,10 +129,16 @@ div#redes_sociais > a > img{
     width: 30px;
     height: 30px;
     padding: 10px;
-
-
+    border-radius: 200px;   
 }
-section#sobre{
+div#redes_sociais > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform 0.2s,  border 1s;
+}
+
+section#sobre > article{
  
     width: 90vw;
     background-color: white;
@@ -132,9 +146,27 @@ section#sobre{
     text-align: justify;
     text-indent: 20px;
     margin-bottom: 20px;
+    border-radius: 0px 0px 0px 30px;
 }
+div#sobre{
+    text-align: center;
+}
+div#sobre > img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+section#sobre > h1{
+ background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ color: white;
+ width: 90vw;
+ text-align: left;
+ margin-left: 19px;
+ border-radius: 0px 30px 0px 0px;
+ text-indent: 10px;
 
-section#linguagens{
+}
+section#linguagens > article{
  
     width: 90vw;
     background-color: white;
@@ -142,14 +174,55 @@ section#linguagens{
     text-align: justify;
     text-indent: 20px;
     margin-bottom: 20px;
-    
+    border-radius: 0px 0px 0px 30px;
 }
-section#projetos{
+section#linguagens > h1{
+ background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ color: white;
+ width: 90vw;
+ text-align: left;
+ margin-left: 19px;
+ border-radius: 0px 30px 0px 0px;
+ text-indent: 10px;
+
+}
+div#linguagens{
+    text-align: center;
+}
+div#linguagens > img{
+    width: 50px;
+    height: 50px;
+
+}
+
+section#projetos > article{
  
     width: 90vw;
     background-color: white;
     margin: auto;
     text-align: justify;
     text-indent: 20px;
-    
+    margin-bottom: 20px;
+    border-radius: 0px 0px 0px 30px;
 }
+section#projetos > h1{
+ background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ color: white;
+ width: 90vw;
+ text-align: left;
+ margin-left: 19px;
+ border-radius: 0px 30px 0px 0px;
+ text-indent: 10px;
+
+}
+
+div#projetos{
+    text-align: center;
+}
+div#projetos > img{
+    width: 100px;
+    height: 130px;
+
+}
+
+
