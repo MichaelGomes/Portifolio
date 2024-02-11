@@ -18,38 +18,7 @@ preto: #000000 */
     margin: 0px;
     padding: 0px;
 }
-p {
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  ul > li {
-    animation-duration: 2s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+
 
 body, html{
     background-color: #041930;
@@ -124,6 +93,23 @@ menu > ul > li > a:hover{
     transform: translate(-5px, -5px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
     transition: transform 0.2s,  border 1s;
+}
+menu{
+
+    animation-duration: 1.2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 section#background{
     height: 350px;
@@ -228,7 +214,7 @@ section#sobre > article > ul{
     width: 80vw;
     list-style-type: disc #ffbc05 ;
     list-style-position: inside;
-    font-size: 1em; 
+    font-size: 1.2em; 
     margin: 5px;
     padding-left: 10px;
 
