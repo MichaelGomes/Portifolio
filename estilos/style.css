@@ -167,6 +167,9 @@ div#redes_sociais > a > img:hover{
 section#sobre > article{
  
     width: 90vw;
+    padding-top: 20px;
+    font-size: 0.5em;
+    line-height: 2em;
     background-color: white;
     margin: auto;
     text-align: justify;
@@ -174,6 +177,21 @@ section#sobre > article{
     margin-bottom: 20px;
     border-radius: 0px 0px 0px 30px;
 }
+section#sobre > article > h2{
+    text-align: center;
+    font-size: 1.2em; 
+    text-decoration: underline 1.4px #9b05a8; 
+
+}
+section#sobre > article > ul{
+    width: 80vw;
+    list-style-type: disc #ffbc05 ;
+    list-style-position: inside;
+    margin: 5px;
+
+}
+
+
 div#sobre{
     text-align: center;
 }
