@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+
 /*Paleta
 lilas: #8F3985
 azul claro:#1E96FC
@@ -8,7 +11,10 @@ azul escuro:#0F4C5C
 preto: #000000 */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
     margin: 0px;
     padding: 0px;
 }
@@ -21,6 +27,9 @@ header{
     height: 50px;
 
 
+}
+header > img{
+    width: 50px;
 }
 .container{
  
@@ -35,6 +44,7 @@ header{
 header > h1{
     color: white;
     padding:10px;
+    padding-top: 15px;
     text-align: left;
     display: inline-block;
     width: 50vw;
@@ -88,11 +98,11 @@ section#background{
     position: relative;
 
     background: url(../imagens/background1.jpg) left center;
-    background-attachment: fixed;
     background-size: cover;
     margin-bottom: 40px;
 }
 section#card{
+    color: white;
     position: absolute;
 
     width: 170px;
@@ -132,11 +142,13 @@ div#redes_sociais {
 }
 div#redes_sociais > h1{
     font-size: 1.2em;
+    color: white;
 
 
 }
 div#redes_sociais > h2{
     font-size: 1em;
+    color: white;
 
 }
 div#redes_sociais > a > img{
@@ -178,12 +190,12 @@ section#sobre > h1{
  margin-left: 1%;
  border-radius: 0px 30px 0px 10px;
  text-indent: 10px;
+ font-size: 1.3em;
 
 }
 section#background2{
     height: 350px;
     background: url(../imagens/pexels-lukas-574080.jpg) center center;
-    background-attachment: fixed;
     background-size: cover;
     margin-bottom: 40px;
     
@@ -206,6 +218,7 @@ section#linguagens > h1{
  margin-left: 1%;
  border-radius: 0px 30px 0px 10px;
  text-indent: 10px;
+ font-size: 1.2em;
 
 }
 div#linguagens{
@@ -226,7 +239,6 @@ section#background3{
     height: 350px;
 
     background: url(../imagens/pexels-designecologist-1779487.jpg) center center;
-    background-attachment: fixed;
     background-size: cover;
     margin-bottom: 40px;
     
@@ -251,16 +263,23 @@ section#projetos > h1{
  margin-left: 1%;
  border-radius: 0px 30px 0px 10px;
  text-indent: 10px;
+ font-size: 1.2em;
 
 }
 
 div#projetos{
     text-align: center;
+    color: white;
 }
 div#projetos > img{
     width: 80vw;
+
  
 
+
+}
+section#projetos > article > h2{
+    color: rgba(255, 255, 255, 0.658);
 }
 
 
