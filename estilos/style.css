@@ -171,7 +171,7 @@ div#sobre > img{
     height: 150px;
 }
 section#sobre > h1{
- background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ background-image: linear-gradient(to right,  #5e2a8a,#8F3985);
  color: white;
  width: 94vw;
  text-align: left;
@@ -180,18 +180,26 @@ section#sobre > h1{
  text-indent: 10px;
 
 }
+section#background2{
+    height: 350px;
+    background: url(../imagens/pexels-lukas-574080.jpg) center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
 section#linguagens > article{
- 
+
     width: 90vw;
-    background-color: white;
+    background-color: #0b2c49;
     margin: auto;
-    text-align: justify;
-    text-indent: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     border-radius: 0px 0px 0px 30px;
 }
 section#linguagens > h1{
- background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ background-image: linear-gradient(to right,  #5e2a8a,#8F3985);
  color: white;
  width: 94vw;
  text-align: left;
@@ -202,17 +210,33 @@ section#linguagens > h1{
 }
 div#linguagens{
     text-align: center;
+    color: white;
+    display: inline;
 }
 div#linguagens > img{
     width: 50px;
     height: 50px;
+    display: inline;
 
+}
+div#linguagens > input{
+    width: 70vw;
+}
+section#background3{
+    height: 350px;
+
+    background: url(../imagens/pexels-designecologist-1779487.jpg) center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 40px;
+    
 }
 
 section#projetos > article{
  
     width: 90vw;
-    background-color: white;
+
+    background-color: #0b2c49;
     margin: auto;
     text-align: justify;
     text-indent: 20px;
@@ -220,7 +244,7 @@ section#projetos > article{
     border-radius: 0px 0px 0px 30px;
 }
 section#projetos > h1{
- background-image: linear-gradient(to right,  #ff9900,#8F3985);
+ background-image: linear-gradient(to right,  #5e2a8a,#8F3985);
  color: white;
  width: 94vw;
  text-align: left;
@@ -234,8 +258,8 @@ div#projetos{
     text-align: center;
 }
 div#projetos > img{
-    width: 100px;
-    height: 130px;
+    width: 80vw;
+ 
 
 }
 
