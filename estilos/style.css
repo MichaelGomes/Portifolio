@@ -228,7 +228,9 @@ section#sobre > article > ul{
     width: 80vw;
     list-style-type: disc #ffbc05 ;
     list-style-position: inside;
+    font-size: 1em; 
     margin: 5px;
+    padding-left: 10px;
 
 }
 
