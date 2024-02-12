@@ -133,7 +133,7 @@ section#background3{
 section#projetos > h1{
     top: 50%;
     left: 50%;
-    transform: translate(-0%, -0%);    
+    transform: translate(-0.5%, -0%);    
 
     width: 94vw;
     font-size: 2em;
