@@ -9,10 +9,10 @@ header{
     
 }
 
-header > img{
+header > a > img{
         width: 75px;
 }
-header > h1{
+header > a > h1{
     font-size: 2em;
 }
 

@@ -29,7 +29,7 @@ header{
 
 
 }
-header > img{
+header > a > img{
     width: 50px;
 }
 .container{
@@ -42,7 +42,7 @@ header > img{
     
 
 }
-header > h1{
+header > a > h1{
     color: white;
     padding:10px;
     padding-top: 15px;
