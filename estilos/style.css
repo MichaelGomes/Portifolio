@@ -185,7 +185,7 @@ div#redes_sociais > a > img:hover{
 section#sobre > article{
  
     width: 90vw;
-    font-size: 0.5em;
+    font-size: 1em;
     line-height: 2em;
     background-color: white;
     margin: auto;
@@ -202,7 +202,7 @@ padding: 2px 20px;
 section#sobre > article > h2{
     margin: auto;
     text-align: center;
-    font-size: 1.2em; 
+    font-size: 1.5em; 
     background-color: #ff9900;
     width: 70vw;
     color: white; 
